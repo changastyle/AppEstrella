@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actWaitingForTarjetaTxtDescriptivo">Pidiendo datos de la Tarjeta</string>
+    <string name="HeaderChangeIpAct">Ingresa la direccion IP del Server a conectarse:</string>
+    <string name="subHeaderChangeIpAct">Si no sabes que es esto, dejalo como esta.</string>
+    <string name="txt_check_new_versions_1">Checking for new versions</string>
+    <string name="btnTarjetaNoVinculada">Vincular Tarjeta</string>
+    <string name="txtSaldoNoVinculado">Saldo: $0</string>
+</resources>

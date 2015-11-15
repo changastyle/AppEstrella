@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nicog.test" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/trebol"
+        android:label="@string/app_name"
+        android:theme="@style/WelcomeActivity" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PickAGame"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".LoadingActivityWaitingForTarjetaFromQR"
+            android:label="@string/title_activity_loading_activity_waiting_for_tarjeta_from_qr" />
+        <activity
+            android:name=".ErrorActivity"
+            android:label="@string/title_activity_error" />
+        <activity
+            android:name=".ActivitiDeResultados"
+            android:label="@string/title_activity_act_nico_express" >
+        </activity>
+        <activity
+            android:name=".InputJugadasAct"
+            android:label="@string/title_activity_nico_express_game" >
+        </activity>
+        <activity
+            android:name=".ManagerNicoExpress"
+            android:label="@string/title_activity_manager_nico_express" >
+        </activity>
+        <activity
+            android:name=".ActivityDreams"
+            android:label="@string/title_activity_activity_dreams" >
+        </activity>
+        <activity
+            android:name=".WaitingForResultsAct"
+            android:label="@string/title_activity_waiting_for_results" >
+        </activity>
+        <activity
+            android:name=".UpdateVersionAct"
+            android:label="@string/title_activity_update_version" >
+        </activity>
+        <activity
+            android:name=".Util.WaitingForGamesAct"
+            android:label="@string/title_activity_waiting_for_games" >
+        </activity>
+        <activity
+            android:name=".ChangeIPAct"
+            android:label="@string/title_activity_change_ip" >
+        </activity>
+        <activity
+            android:name=".VentanitaEmotiva"
+            android:label="@string/title_activity_win"
+            android:theme="@style/OtrasActivities">
+        </activity>
+    </application>
+
+</manifest>

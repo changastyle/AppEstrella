@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nicog.test.PickAGame">
+    <item android:id="@+id/pick_descargar_qr" android:title="Descargar QR Droid para leer codigos."/>
+    <item android:id="@+id/pick_modo_tablet" android:title="Modo tablet"/>
+    <item android:id="@+id/pick_exit" android:title="Cerrar la App"/>
+</menu>

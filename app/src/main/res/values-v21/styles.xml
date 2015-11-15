@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="TemaNico" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:background">#00695C</item>
+        <item name="android:colorPrimary">#00695C</item>004D40
+        <item name="android:colorPrimaryDark">#004D40</item>
+    </style>
+</resources>
